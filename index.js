@@ -26,20 +26,9 @@ async function askStuff(question, correctAnswer) {
 async function ask() {
     let correct = 0
     let questions = [
-    ["How many letters are there in the English alphabet?", "26"],
-    ["How many strings does a standard guitar have?", "6"],
-    ["How do you say hello in French?", "bonjour"],
-    ["How many wheels does a skateboard have?", "4"],
-    ["What colour do you get if you mix red and yellow?", "orange"],
-    ["What coding language is this program made with?", "javascript"],
-    ["What instrument has black and white keys?", "piano"],
-    ["Who was the first American president?", "george washington"],
-    ["What fruit does Spongebob live in?", "pineapple"],
-    ["How many valves does a trumpet have?(anwer with a number)", "3"],
-    ["What kind of weapon is a falchion?", "sword"],
-    ["What is the final boss of famous game Minecraft?", "ender dragon"],
-    ["What is the longest river in the world? It is the ....", "nile"],
-    ["Which shoe and sport clothing manufacturer have a check mark as their symbol?", "nike"]
+    ["Question1", "answer1"],
+    ["Question2", "answer2"],
+    ["Question3", "answer3"]
     ]
 
     for (i in questions) {

@@ -6,19 +6,11 @@ async function askStuff(question, correctAnswer) {
 
     if (answer.toLowerCase() == correctAnswer) {
         console.clear()
-        console.log("                         ")
         console.log("You were correct!")
-        console.log("                         ")
-        console.log("                         ")
-        console.log("                         ")
         return true;
     } else {
         console.clear()
-        console.log("                         ")
-        console.log("You failed! L")
-        console.log("                         ")
-        console.log("                         ")
-        console.log("                         ")
+        console.log("You were wrong!")
         return false;
     }
 }
